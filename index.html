@@ -5,55 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main">
-        <nav class="nav">
-            <div class="left"><img src="./img/Group 3.png" alt="" width="70%"
-                height="80%"></div>
-                <div class="right">
-                 <ul>
-                    <li>Home</li>
-                    <li>Specialties</li>
-                    <li>About us</li>
-                    <li>Contact</li>
-                 </ul>
+    <nav>
+        <div class="fir">
+            <img src="./img/Group 3.png" alt="">
+        </div>
+        <div class="sec">
+            <p>Home</p>
+            <p>Specialties</p>
+            <p>About us</p>
+            <p>Contact</p>
+        </div>
+    </nav>
+
+    <div class="main2">
+        <div class="left">
+            <img src="img/Star 1 (2).png" alt="" id="Star">
+            <img src="./img/image 2 (3).png" alt="" class="stro" style="opacity: 0.9;
+            z-index: -99;
+            width: 1200px;
+            position: absolute;
+            top: 0px;
+            left: 100px;
+            transition: 2s ease;">
+            <img id="img" src="./img/Group 3.png" alt="" style="margin-top: 150px;" width="400px">
+
+            <p id="img" style="color: white; font-weight: bolder;">smoothies are so healthies, refreshing and the
+                perfect way to <br> pack some extra fruit and veggies
+                into
+                your diet.</p>
+            <div class="round">
+                <div class="swiper1">
+                    <img src="./img/strawberry dish.png" alt="" id="bey" onclick="bary()">
                 </div>
-        </nav>
-        <div class="two_part">
-            <div class="first_div">
-                <div class="paragraf">  
-                <div class="photo"><img src="./img/image.png" alt="" width="70%" height="80%"></div>
-                <div class="p">smoothies are so healthies, refreshing and the perfect 
-                    way to pack some extra fruit and veggies into your 
-                    diet.</div>    
+                <div class="swiper2">
+                    <img src="./img/Rectangle.png" alt="" onclick="banana()">
                 </div>
-            </div>
-            <div class="seond_div">
-                <div class="circle_main">
-                    <div class="b_round">
-                        <div class="round_up">
-                            <div class="round">1</div>
-                            <div class="round">2</div>
-
-                        </div>
-                        <div class="round_bottem">
-
-                            <div class="round">3</div>
-                            <div class="round">4</div>
-                        </div>
-                    </div>
-
+                <div class="swiper3">
+                    <img src="./img/Rectangle (2).png" alt="" onclick="keye()">
                 </div>
-
+                <div class="swiper4">
+                    <img src="./img/Rectangle (3).png" alt="" onclick="dryfrute()">
+                </div>
             </div>
 
         </div>
+        <div class="right">
+            <div class="main-round1">
+                <div class="round1">
+                    <img src="./img/strawberry dish.png" alt="" width="450px">
+
+                </div>
+                <div class="round2">
+                    <img src="./img/Rectangle.png" alt="" width="350px">
+
+                </div>
+            </div>
+            <div class="main-round2">
+                <div class="round3">
+                    <img src="./img/Rectangle (3).png" alt="" width="350px">
+
+                </div>
+                <div class="round4">
+
+                    <img src="./img/Rectangle (2).png" alt="" width="350px">
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="./js/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
